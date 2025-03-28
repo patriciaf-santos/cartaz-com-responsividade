@@ -12,7 +12,7 @@ body {
   }
   
   .cabecalho nav {
-    float: right;
+    float: bottom right;
   }
   
   .cabecalho nav li {
@@ -45,9 +45,10 @@ body {
     width: 100%;
   }
   
-  @media (max-width: 576px) {
+  @media (max-width: 576px) /**max-width é um ponto de quebra da imagem**/{
     .cabecalho {
       text-align: center;
+      background-color: blue;
     }
   
     .cabecalho nav {
